@@ -41,6 +41,6 @@
 <img width="440" alt="image" src="https://github.com/user-attachments/assets/d794dbe5-2e37-40ee-a5f0-faf5ea22a0eb">
 
 ## VSLM
-<img width="575" alt="image" src="https://github.com/user-attachments/assets/7bdbde47-e6b9-4f12-a8b0-e504350bc8aa">
+<img alt="image" src="https://github.com/user-attachments/assets/7bdbde47-e6b9-4f12-a8b0-e504350bc8aa">
 
-<img width="575" alt="image" src="https://github.com/user-attachments/assets/d73ed795-277a-4704-b596-5fe773d84715">
+<img alt="image" src="https://github.com/user-attachments/assets/d73ed795-277a-4704-b596-5fe773d84715">
