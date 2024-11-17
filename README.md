@@ -40,6 +40,83 @@
 ## Gabungan 10 (J)
 <img width="440" alt="image" src="https://github.com/user-attachments/assets/d794dbe5-2e37-40ee-a5f0-faf5ea22a0eb">
 
+# Konfigurasi
+## Hololive (Gateway)
+```
+#A8
+auto eth1
+iface eth1 inet static
+    address 10.79.16.1
+    netmask 255.255.255.252
+
+#A9
+auto eth2
+iface eth2 inet static
+    address 10.78.160.1
+    netmask 255.255.255.252
+
+#A16
+auto eth3
+iface eth3 inet static
+    address 10.78.64.1
+    netmask 255.255.255.252
+```
+
+## Holo-EN (Gateway)
+```
+#A8
+auto eth0
+iface eth0 inet static
+    address 10.79.16.2
+    netmask 255.255.255.252
+    gateway 10.79.16.1 #ip sebelumnya
+
+#A5
+auto eth1
+iface eth1 inet static
+    address 10.79.4.1
+    netmask 255.255.255.252
+
+#A6
+auto eth2
+iface eth2 inet static
+    address 10.79.8.33
+    netmask 255.255.255.252
+```
+
+## Holo-Myth (Gateway)
+```
+#A5
+auto eth0
+iface eth0 inet static
+    address 10.79.4.2
+    netmask 255.255.255.252
+    gateway 10.79.4.1
+
+#A4
+auto eth1
+iface eth1 inet static
+    address 10.79.0.1
+    netmask 255.255.254.0
+
+
+#A2
+auto eth2
+iface eth2 inet static
+    address 10.79.2.129
+    netmask 255.255.255.248
+```
+
+## Gura_Ame_Ina (Client)
+```
+#A4
+auto eth0
+iface eth0 inet static
+    address 10.79.0.2
+    netmask 255.255.254.0
+    gateway 10.79.0.1
+```
+
 ## VSLM
 <img alt="image" src="https://github.com/user-attachments/assets/7bdbde47-e6b9-4f12-a8b0-e504350bc8aa">
 
