@@ -6,42 +6,86 @@
 | Harwinda | 5027231079   |
 | Muhammad Syahmi Ash Shidqi | 5027231085 |
 
-# Topologi
-## GNS3 (CIDR)
+# GNS3 (CIDR)
+## Topologi
 ![topologi-modul-4](https://github.com/user-attachments/assets/2f456ceb-deb6-45a2-bce6-430633b80916)
 
-## Subnetting
+### Subnetting
 <img width="491" alt="image" src="https://github.com/user-attachments/assets/c2dcf46f-d7ab-41dd-a35c-d0445fbc7739">
 
-## Gabungan 2 (B)
+### Gabungan 2 (B)
 <img width="572" alt="image" src="https://github.com/user-attachments/assets/8db58974-772e-4a7a-866a-d081b7c38e71">
 
-## Gabungan 3 (C)
+<img width="442" alt="image" src="https://github.com/user-attachments/assets/19a0100e-22f8-4026-be20-37b0bc28260b">
+
+
+### Gabungan 3 (C)
+
 <img width="575" alt="image" src="https://github.com/user-attachments/assets/12409176-5524-456c-8158-d66932858080">
 
-## Gabungan 4 (D)
+<img width="445" alt="image" src="https://github.com/user-attachments/assets/92bdf1af-2391-41d8-8c53-9fdfe8fe9485">
+
+
+### Gabungan 4 (D)
+
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/b2685460-24b3-477e-ab67-d8968ac2af3a">
 
-## Gabungan 5 (E)
+<img width="443" alt="image" src="https://github.com/user-attachments/assets/54efd0fe-4acc-438e-92f0-a89e46af4c8a">
+
+
+### Gabungan 5 (E)
+
 <img width="575" alt="image" src="https://github.com/user-attachments/assets/62c4ad35-0980-4d92-b836-2d5b065b9bab">
 
-## Gabungan 6 (F)
+<img width="444" alt="image" src="https://github.com/user-attachments/assets/2d21dfa6-0639-48a2-85cf-5f530524d003">
+
+
+### Gabungan 6 (F)
+
 <img width="586" alt="image" src="https://github.com/user-attachments/assets/a1153f10-96c3-44a9-ac74-bea021684621">
 
-## Gabungan 7 (G)
+<img width="443" alt="image" src="https://github.com/user-attachments/assets/f507496e-e281-49af-a4ec-790f82d23764">
+
+
+### Gabungan 7 (G)
+
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/5ea4dd64-1a84-4dd1-9127-3cdb9549a5d0">
 
-## Gabungan 8 (H)
+<img width="448" alt="image" src="https://github.com/user-attachments/assets/359281ca-d7b8-49ee-b1dc-987fb54b4902">
+
+
+
+
+### Gabungan 8 (H)
+
 <img width="437" alt="image" src="https://github.com/user-attachments/assets/c1210df8-71f4-43b4-bd27-326e8853ca0a">
+<br>
 
-## Gabungan 9 (I)
+<img width="445" alt="image" src="https://github.com/user-attachments/assets/79e06e9a-7883-4eb7-ae96-98176d33e98d">
+
+
+
+
+### Gabungan 9 (I)
+
 <img width="438" alt="image" src="https://github.com/user-attachments/assets/6f4da465-4862-48db-b593-eb9ba78f2451">
+<br>
 
-## Gabungan 10 (J)
+<img width="446" alt="image" src="https://github.com/user-attachments/assets/1d3f61c2-b529-497d-9795-c27024872b2c">
+
+
+
+
+### Gabungan 10 (J)
+
 <img width="440" alt="image" src="https://github.com/user-attachments/assets/d794dbe5-2e37-40ee-a5f0-faf5ea22a0eb">
+<br>
 
-# Konfigurasi
-## Hololive (Gateway)
+<img width="443" alt="image" src="https://github.com/user-attachments/assets/b04ae076-20f2-4320-9ff9-973d7f543c13">
+
+
+## Konfigurasi
+### Hololive (Gateway)
 ```
 #A8
 auto eth1
@@ -62,7 +106,7 @@ iface eth3 inet static
     netmask 255.255.255.252
 ```
 
-## Holo-EN (Gateway)
+### Holo-EN (Gateway)
 ```
 #A8
 auto eth0
@@ -84,7 +128,7 @@ iface eth2 inet static
     netmask 255.255.255.252
 ```
 
-## Holo-Myth (Gateway)
+### Holo-Myth (Gateway)
 ```
 #A5
 auto eth0
@@ -107,7 +151,7 @@ iface eth2 inet static
     netmask 255.255.255.248
 ```
 
-## Gura_Ame_Ina (Client)
+### Gura_Ame_Ina (Client)
 ```
 #A4
 auto eth0
@@ -117,7 +161,10 @@ iface eth0 inet static
     gateway 10.79.0.1
 ```
 
-## CPT (VSLM)
+
+
+
+# CPT (VSLM)
 
 ### Topologi
 <img alt="image" src="https://github.com/user-attachments/assets/7bdbde47-e6b9-4f12-a8b0-e504350bc8aa">
