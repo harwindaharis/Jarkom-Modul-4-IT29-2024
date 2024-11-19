@@ -312,7 +312,7 @@ Netmask: 255.255.255.128
 (A1) 
 IPv4: 10.78.18.130
 Netmask: 255.255.255.192
-Gateway: 10.78.18.128
+Gateway: 10.78.18.129
 ```
 
 - Bae_Fauna
@@ -320,7 +320,7 @@ Gateway: 10.78.18.128
 (A1) 
 IPv4: 10.78.18.131
 Netmask: 255.255.255.192
-Gateway: 10.78.18.128
+Gateway: 10.78.18.129
 ```
 
 - Irys
@@ -328,7 +328,7 @@ Gateway: 10.78.18.128
 (A3) 
 IPv4: 10.78.19.58
 Netmask: 255.255.255.248
-Gateway: 10.78.19.56
+Gateway: 10.78.19.57
 ```
 
 - Gura_Ame_Ina
@@ -336,7 +336,7 @@ Gateway: 10.78.19.56
 (A4) 
 IPv4: 10.78.12.2
 Netmask: 255.255.254.0
-Gateway: 10.78.12.0
+Gateway: 10.78.12.1
 ```
 
 - Kiara_calli
@@ -344,7 +344,7 @@ Gateway: 10.78.12.0
 (A4) 
 IPv4: 10.78.13.56
 Netmask: 255.255.254.0
-Gateway: 10.78.12.0
+Gateway: 10.78.12.1
 ```
 
 - FuwaMoco
@@ -352,7 +352,7 @@ Gateway: 10.78.12.0
 (A7) 
 IPv4: 10.78.19.2
 Netmask: 255.255.255.224
-Gateway: 10.78.19.0
+Gateway: 10.78.19.1
 ```
 
 - Shiori_Nerissa
@@ -360,7 +360,7 @@ Gateway: 10.78.19.0
 (A7) 
 IPv4: 10.78.19.7
 Netmask: 255.255.255.224
-Gateway: 10.78.19.0
+Gateway: 10.78.19.1
 ```
 
 - Biboo
@@ -368,7 +368,7 @@ Gateway: 10.78.19.0
 (A7) 
 IPv4: 10.78.19.19
 Netmask: 255.255.255.224
-Gateway: 10.78.19.0
+Gateway: 10.78.19.1
 ```
 
 - Moona
@@ -376,7 +376,7 @@ Gateway: 10.78.19.0
 (A11) 
 IPv4: 10.78.8.142
 Netmask: 255.255.252.0
-Gateway: 10.78.8.0
+Gateway: 10.78.8.1
 ```
 
 - Risu
@@ -384,7 +384,7 @@ Gateway: 10.78.8.0
 (A11) 
 IPv4: 10.78.9.88
 Netmask: 255.255.252.0
-Gateway: 10.78.8.0
+Gateway: 10.78.8.1
 ```
 
 - lofi
@@ -392,7 +392,7 @@ Gateway: 10.78.8.0
 (A11) 
 IPv4: 10.78.8.2
 Netmask: 255.255.252.0
-Gateway: 10.78.8.0
+Gateway: 10.78.8.1
 ```
 
 - Ollie
@@ -400,7 +400,7 @@ Gateway: 10.78.8.0
 (A13) 
 IPv4: 10.78.18.194
 Netmask: 255.255.255.192
-Gateway: 10.78.18.192
+Gateway: 10.78.18.193
 ```
 
 - Anya
@@ -408,7 +408,7 @@ Gateway: 10.78.18.192
 (A13) 
 IPv4: 10.78.18.214
 Netmask: 255.255.255.192
-Gateway: 10.78.18.192
+Gateway: 10.78.18.193
 ```
 
 - Reine
@@ -416,7 +416,7 @@ Gateway: 10.78.18.192
 (A13) 
 IPv4: 10.78.18.217
 Netmask: 255.255.255.192
-Gateway: 10.78.18.192
+Gateway: 10.78.18.193
 ```
 
 - Zeta
@@ -424,7 +424,7 @@ Gateway: 10.78.18.192
 (A15) 
 IPv4: 10.78.14.2
 Netmask: 255.255.254.0
-Gateway: 10.78.14.0
+Gateway: 10.78.14.1
 ```
 
 - Kaela
@@ -432,7 +432,7 @@ Gateway: 10.78.14.0
 (A15) 
 IPv4: 10.78.14.83
 Netmask: 255.255.254.0
-Gateway: 10.78.14.0
+Gateway: 10.78.14.1
 ```
 
 - Kobo
@@ -440,7 +440,7 @@ Gateway: 10.78.14.0
 (A15) 
 IPv4: 10.78.14.154
 Netmask: 255.255.254.0
-Gateway: 10.78.14.0
+Gateway: 10.78.14.1
 ```
 
 - Ririka_Raden
@@ -448,7 +448,7 @@ Gateway: 10.78.14.0
 (A18) 
 IPv4: 10.78.19.34
 Netmask: 255.255.255.240
-Gateway: 10.78.19.32
+Gateway: 10.78.19.33
 ```
 
 - Ao
@@ -456,7 +456,7 @@ Gateway: 10.78.19.32
 (A18) 
 IPv4: 10.78.19.37
 Netmask: 255.255.255.240
-Gateway: 10.78.19.32
+Gateway: 10.78.19.33
 ```
 
 - Hajime_Kanade
@@ -464,7 +464,7 @@ Gateway: 10.78.19.32
 (A18) 
 IPv4: 10.78.19.40
 Netmask: 255.255.255.240
-Gateway: 10.78.19.32
+Gateway: 10.78.19.33
 ```
 
 - MiComent
@@ -472,7 +472,7 @@ Gateway: 10.78.19.32
 (A19) 
 IPv4: 10.78.0.2
 Netmask: 255.255.248.0
-Gateway: 10.78.0.0
+Gateway: 10.78.0.1
 ```
 
 - Sora_Robo_AZKi
@@ -480,7 +480,7 @@ Gateway: 10.78.0.0
 (A19) 
 IPv4: 10.78.5.228
 Netmask: 255.255.248.0
-Gateway: 10.78.0.0
+Gateway: 10.78.0.1
 ```
 
 - FBK_Matsuri
@@ -488,7 +488,7 @@ Gateway: 10.78.0.0
 (A20) 
 IPv4: 10.78.16.2
 Netmask: 255.255.254.0
-Gateway: 10.78.16.0
+Gateway: 10.78.16.1
 ```
 
 - Aki_Hachama
@@ -496,7 +496,7 @@ Gateway: 10.78.16.0
 (A20) 
 IPv4: 10.78.17.68
 Netmask: 255.255.254.0
-Gateway: 10.78.16.0
+Gateway: 10.78.16.1
 ```
 
 - Korone
@@ -504,7 +504,7 @@ Gateway: 10.78.16.0
 (A22) 
 IPv4: 10.78.18.2
 Netmask: 255.255.255.128
-Gateway: 10.78.18.0
+Gateway: 10.78.18.1
 ```
 
 - Okayu
@@ -512,7 +512,7 @@ Gateway: 10.78.18.0
 (A22) 
 IPv4: 10.78.18.53
 Netmask: 255.255.255.128
-Gateway: 10.78.18.0
+Gateway: 10.78.18.1
 ```
 
 - Mio
@@ -520,5 +520,5 @@ Gateway: 10.78.18.0
 (A22) 
 IPv4: 10.78.18.85
 Netmask: 255.255.255.128
-Gateway: 10.78.18.0
+Gateway: 10.78.18.1
 ```
