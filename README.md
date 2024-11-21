@@ -620,9 +620,146 @@ iface eth0 inet static
   gateway 10.78.136.1
 ```
 
+## Routing
+### Hololive
+```
+#KIRI
+post-up route add -net 10.79.16.0 netmask 255.255.255.252 gw 10.79.16.2 #A8
+post-up route add -net 10.79.0.0 netmask 255.255.254.0 gw 10.79.16.2 #A4
+post-up route add -net 10.79.4.0 netmask 255.255.255.252 gw 10.79.16.2 #A5
+post-up route add -net 10.79.2.64 netmask 255.255.255.248 gw 10.79.16.2 #A3
+post-up route add -net 10.79.2.0 netmask 255.255.255.192 gw 10.79.16.2 #A1
+post-up route add -net 10.79.8.0 netmask 255.255.255.224 gw 10.79.16.2 #A7
+post-up route add -net 10.79.8.32 netmask 255.255.255.252 gw 10.79.16.2 #A6
+post-up route add -net 10.79.2.128 netmask 255.255.255.248 gw 10.79.16.2 #A2
 
+#BAWAH
+post-up route add -net 10.78.16.0 netmask 255.255.255.240 gw 10.78.64.2 #A18
+post-up route add -net 10.78.32.0 netmask 255.255.255.248 gw 10.78.64.2 #A17
+post-up route add -net 10.78.0.0 netmask 255.255.248.0 gw 10.78.64.2 #A19
+post-up route add -net 10.78.8.0 netmask 255.255.254.0 gw 10.78.64.2 #A20
+post-up route add -net 10.78.10.128 netmask 255.255.255.252 gw 10.78.64.2 #A21
+post-up route add -net 10.78.10.0 netmask 255.255.255.128 gw 10.78.64.2 #A22
 
-# Testing
+#KANAN
+post-up route add -net 10.78.132.0 netmask 255.255.255.252 gw 10.78.160.2 #A10
+post-up route add -net 10.78.128.0 netmask 255.255.252.0 gw 10.78.160.2 #A11
+post-up route add -net 10.78.144.64 netmask 255.255.255.252 gw 10.78.160.2 #A12
+post-up route add -net 10.78.144.0 netmask 255.255.255.192 gw 10.78.160.2 #A13
+post-up route add -net 10.78.138.0 netmask 255.255.255.252 gw 10.78.160.2 #A14
+post-up route add -net 10.78.136.0 netmask 255.255.254.0 gw 10.78.160.2 #A15
+```
+
+### Holo-EN
+```
+post-up route add -net 10.79.0.0 netmask 255.255.254.0 gw 10.79.4.2 #A4
+post-up route add -net 10.79.2.64 netmask 255.255.255.248 gw 10.79.4.2 #A3
+post-up route add -net 10.79.2.128 netmask 255.255.255.248 gw 10.79.4.2 #A2
+post-up route add -net 10.79.2.0 netmask 255.255.255.192 gw 10.79.4.2 #A1
+post-up route add -net 10.79.8.0 netmask 255.255.255.224 gw 10.79.8.34 #A7
+post-up route add -net 10.78.160.0 netmask 255.255.255.252 gw 10.79.16.1
+```
+
+### Holo-Myth
+```
+post-up route add -net 10.79.2.64 netmask 255.255.255.248 gw 10.79.2.130 #A3
+post-up route add -net 10.79.16.0 netmask 255.255.255.252 gw 10.79.4.1 #A8
+post-up route add -net 10.79.2.0 netmask 255.255.255.192 gw 10.79.2.131 #A1
+post-up route add -net 10.78.8.0 netmask 255.255.254.0 gw 10.79.4.1 #A7
+```
+
+### Holo-Council 
+```
+post-up route add -net 10.79.0.0 netmask 255.255.254.0 gw 10.79.2.129 #A4
+post-up route add -net 10.79.16.0 netmask 255.255.255.252 gw 10.79.2.129 #A8
+post-up route add -net 10.79.4.0 netmask 255.255.255.252 gw 10.79.2.129 #A5
+```
+
+### Project-Hope
+```
+post-up route add -net 10.79.0.0 netmask 255.255.254.0 gw 10.79.2.129 #A4
+post-up route add -net 10.79.16.0 netmask 255.255.255.252 gw 10.79.2.129 #A8
+post-up route add -net 10.79.4.0 netmask 255.255.255.252 gw 10.79.2.129 #A5
+post-up route add -net 10.79.2.0 netmask 255.255.255.192 gw 10.79.2.131 #A1
+post-up route add -net 10.78.136.0 netmask 255.255.254.0 gw 10.79.2.129 #A15
+```
+
+### HoloAdvent
+```
+post-up route add -net 10.79.16.0 netmask 255.255.255.252 gw 10.79.8.33 #A8
+```
+
+### Holo-JP
+```
+#KIRI
+post-up route add -net 10.78.16.0 netmask 255.255.255.240 gw 10.78.32.2 #A18
+
+#KANAN
+post-up route add -net 10.78.0.0 netmask 255.255.248.0 gw 10.78.32.3 #A19
+
+#BAWAH
+post-up route add -net 10.78.8.0 netmask 255.255.254.0 gw 10.78.32.3 #A20
+post-up route add -net 10.78.10.0 netmask 255.255.255.128 gw 10.78.32.3 #A22
+post-up route add -net 10.78.10.128 netmask 255.255.255.252 gw 10.78.32.3 #A21
+```
+### DEV_IS
+```
+post-up route add -net 10.78.64.0 netmask 255.255.255.252 gw 10.78.32.1 #A16
+```
+
+### GEN:0
+```
+post-up route add -net 10.78.64.0 netmask 255.255.255.252 gw 10.78.32.1 #A16
+post-up route add -net 10.78.8.0 netmask 255.255.254.0 gw 10.78.0.4 #A20
+post-up route add -net 10.78.10.0 netmask 255.255.255.128 gw 10.78.0.4 #A22
+post-up route add -net 10.78.10.128 netmask 255.255.255.252 gw 10.78.0.4 #A21
+```
+
+### GEN:1
+```
+post-up route add -net 10.78.10.0 netmask 255.255.255.128 gw 10.78.10.130 #A22
+post-up route add -net 10.78.32.0 netmask 255.255.255.248 gw 10.78.0.1 #A17
+post-up route add -net 10.78.64.0 netmask 255.255.255.252 gw 10.78.0.1 #A16
+
+post-up route add -net 10.78.64.0 netmask 255.255.255.252 gw 10.78.0.1 #A16
+post-up route add -net 10.78.10.0 netmask 255.255.255.128 gw 10.78.10.130 #A22
+```
+
+### GAMERS
+```
+post-up route add -net 10.78.64.0 netmask 255.255.255.252 gw 10.78.10.129 #A16
+post-up route add -net 10.78.0.0 netmask 255.255.248.0 gw 10.78.10.129 #A19
+post-up route add -net 10.78.32.0 netmask 255.255.255.248 gw 10.78.10.129 #A17
+```
+
+### Holo-ID
+```
+post-up route add -net 10.78.128.0 netmask 255.255.252.0 gw 10.78.132.2 #A11
+post-up route add -net 10.78.144.0 netmask 255.255.255.192 gw 10.78.144.66 #A13
+post-up route add -net 10.78.136.0 netmask 255.255.254.0 gw 10.78.138.2 #A15
+post-up route add -net 10.79.16.0 netmask 255.255.255.252 gw 10.78.160.1 #A8
+```
+
+### AREA15
+```
+post-up route add -net 10.78.160.0 netmask 255.255.255.252 gw 10.78.132.1 #A9
+```
+
+### Holoro
+```
+post-up route add -net 10.78.160.0 netmask 255.255.255.252 gw 10.78.144.65 #A9
+```
+
+### Holoh3ro
+```
+post-up route add -net 10.78.160.0 netmask 255.255.255.252 gw 10.78.138.1 #A9
+post-up route add -net 10.79.2.0 netmask 255.255.255.192 gw 10.78.138.1
+post-up route add -net 10.79.8.32 netmask 255.255.255.252 gw 10.78.138.1
+post-up route add -net 10.79.16.0 netmask 255.255.255.252 gw 10.78.138.1
+post-up route add -net 10.79.8.0 netmask 255.255.255.224 gw 10.78.138.1
+```
+
+## Testing
 ### Irys ke Mio
 <img width="604" alt="image" src="https://github.com/user-attachments/assets/0b56841a-575c-4422-960b-c0ad45ebb550">
 
@@ -642,10 +779,12 @@ iface eth0 inet static
 <img width="535" alt="image" src="https://github.com/user-attachments/assets/fd560669-634d-4b0c-ab31-e004be942df0">
 
 ### HoloAdvent ke Holoh3ro
+![alt text](image/image-1.png)
+
+
+### HoloID Ke DevIS
 ![alt text](image/image.png)
 
-
-### HoloID KE DevIS
 
 
 
