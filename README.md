@@ -642,7 +642,7 @@ iface eth0 inet static
 <img width="535" alt="image" src="https://github.com/user-attachments/assets/fd560669-634d-4b0c-ab31-e004be942df0">
 
 ### HoloAdvent ke Holoh3ro
-
+![alt text](image/image.png)
 
 
 ### HoloID KE DevIS
