@@ -1233,11 +1233,23 @@ Gateway: 10.78.18.1
 
 ### Routing sisi bawah
 
+- Hololive
+![Screenshot 2024-11-22 165226](https://github.com/user-attachments/assets/79119623-0894-4957-8c3f-d508c47c0d59)
+
 - Holo-JP
+![Screenshot 2024-11-22 165244](https://github.com/user-attachments/assets/2ff28183-7346-4d41-bf39-eba6884b85fe)
+
 - Dev_IS
+![Screenshot 2024-11-22 165300](https://github.com/user-attachments/assets/523dcbec-6611-4c17-990f-3bb1ed0fed72)
+
 - GEN:0
+![Screenshot 2024-11-22 165320](https://github.com/user-attachments/assets/ca15a613-41c7-401d-ae25-7202dcfd0edc)
+
 - GEN:1
+![Screenshot 2024-11-22 165334](https://github.com/user-attachments/assets/649a7a28-be73-4244-bbdf-20c166858b65)
+
 - GAMERS
+![Screenshot 2024-11-22 165348](https://github.com/user-attachments/assets/897825e0-fcaa-4b8e-8287-7db6b87adc75)
 
 ## Revisi
 
