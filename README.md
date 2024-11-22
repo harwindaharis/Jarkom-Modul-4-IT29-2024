@@ -1193,3 +1193,37 @@ IPv4: 10.78.18.85
 Netmask: 255.255.255.128
 Gateway: 10.78.18.1
 ```
+
+### Routing sisi kiri
+
+- Hololive
+- Holo-EN
+- HoloAdvent
+- Holo-Myth
+- Router4
+- Holo-Council
+
+### Routing sisi kanan
+
+- Hololive
+- Holo-ID
+- AREA15
+- holoro
+- holoh3ro
+
+### Routing sisi bawah
+
+- Holo-JP
+- Dev_IS
+- GEN:0
+- GEN:1
+- GAMERS
+
+## Revisi
+
+### Testing
+
+
+
+
+
