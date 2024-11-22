@@ -1217,10 +1217,19 @@ Gateway: 10.78.18.1
 ### Routing sisi kanan
 
 - Hololive
+![hololive kanan](https://github.com/user-attachments/assets/4deebb47-4a50-49a6-a9b6-54d6ae5da501)
+
 - Holo-ID
+![holo-id](https://github.com/user-attachments/assets/89cbb353-a255-4bae-a6d5-edba3de7a528)
+
 - AREA15
+![harea15](https://github.com/user-attachments/assets/c046bf2e-fbfe-46e0-8846-fae8171c2e70)
+
 - holoro
+![holoro](https://github.com/user-attachments/assets/509b648f-b096-4e14-9ce9-4a6d481da9ae)
+
 - holoh3ro
+![holoh3ro](https://github.com/user-attachments/assets/038967c0-cd33-4b62-bd37-362426d1d1e6)
 
 ### Routing sisi bawah
 
