@@ -1197,11 +1197,22 @@ Gateway: 10.78.18.1
 ### Routing sisi kiri
 
 - Hololive
+![holilivekiri](https://github.com/user-attachments/assets/2a6e4a64-2440-4d99-a6ed-5c6be56774f2)
+
 - Holo-EN
+![Holo-EN](https://github.com/user-attachments/assets/24229f06-8ecb-4e4e-a1d7-3068755f62fa)
+
 - HoloAdvent
+![Holoadvent](https://github.com/user-attachments/assets/64037041-1858-44cd-a8cd-2a6f86776878)
+
 - Holo-Myth
+![Holo-myth](https://github.com/user-attachments/assets/15d6c064-2564-4e81-b3d3-6c513454e30a)
+
 - Router4
+![Router4](https://github.com/user-attachments/assets/f06bdaf7-f630-4d23-af8a-84a9d0e3c67d)
+
 - Holo-Council
+![Holo-Council](https://github.com/user-attachments/assets/6afc4986-cb2c-4e47-a047-09c64eb47b9b)
 
 ### Routing sisi kanan
 
